@@ -1,8 +1,18 @@
-# React + Vite
+# Learning Redxut Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# How redux work write the data behind the scene
+- when we click on add to cart btn then then it dispatch the action which call the reducer function and modified/Update the slice of store
 
-Currently, two official plugins are available:
+# How redux read the data behind the scene
+- cart componnet is subscribe to the store using a selector 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# install redux toolkit
+- install @reduxjs/toolkit & react-redux
+- Build Store
+- Connect our store to our app
+- Create slice (cart slice)
+- Dispatch (action) call reducer (fn)
+- Selector (Read Data)
+
+
